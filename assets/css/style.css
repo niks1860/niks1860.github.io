@@ -936,6 +936,7 @@ main {
 
 .skills-list {
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 
@@ -969,7 +970,45 @@ main {
   border-radius: inherit;
 }
 
+/**
+ * tools & techonologies 
+ */
 
+.tools-title {
+  margin-bottom: 20px;
+}
+
+.tools-list {
+  padding: 20px;
+}
+
+.tools-group:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: var(--jet);
+  margin: 25px 0px;
+}
+
+.tools-group-title {
+  margin-bottom: 10px;
+}
+
+.tools-group-items {
+  position: relative;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.tools-group-item {
+  border: 1px solid var(--orange-yellow-crayola);
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: var(--fs-7);
+  color: var(--vegas-gold);
+}
 
 
 
